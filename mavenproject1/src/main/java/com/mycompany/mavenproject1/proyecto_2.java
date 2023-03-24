@@ -11,9 +11,9 @@ package com.mycompany.mavenproject1;
 public class proyecto_2 {
      public static void main(String[] args) {
          Scanner v = new Scanner(System.in);
-         System.out.println("numero par: ");
+         System.out.println("ingre un numero: ");
          int n1 = v.nextInt();
-         System.out.println("numero par: ");
+         System.out.println("ingrese un numero: ");
          int n2 = v.nextInt();
          if(n1 != n2)
          {
