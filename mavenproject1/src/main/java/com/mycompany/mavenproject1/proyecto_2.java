@@ -19,7 +19,7 @@ public class proyecto_2 {
          {
              System.out.println(n1+" != "+n2+" los numerso diferentes ");
          }
-         if (n1 < 20){
+         if (n1 < n2){
              System.out.println(n1+" < "+n2+" el numero "+n1+" es menor al numero "+n2);
          } 
          if (n1 <= n2){
