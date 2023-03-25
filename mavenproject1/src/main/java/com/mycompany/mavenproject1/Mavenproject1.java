@@ -3,7 +3,7 @@
  */
 
 package com.mycompany.mavenproject1;
-
+  import java.util.Scanner;
 /**
  *
  * @author Alumno
@@ -11,8 +11,9 @@ package com.mycompany.mavenproject1;
 public class Mavenproject1 {
 
     public static void main(String[] args) {
-        int m = 999;
-        int s = 0;
+        Scanner valor = new Scanner(System.in);
+        System.out.println("ingrese un numero a evaluar: ");
+        int m = valor.nextInt();
         System.out.println("numeros inpares: ");
         for (int i = 1;i<=m;i+=2){
             System.out.println("inpar: "+i);
